@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+</head>
+<body>
+    <header>
+        <nav> 
+           <a href="index.html" class="logo">Guitar Kings</a>
+           <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="guitars.html">Guitars</a></li>
+             <li><a href="contact.html" class="current">Contact</a></li>
+           </ul>
+         </nav>
+       </header>
+       <h1>Contact</h1>
+       <div class="contact">
+        <label for="name">Full name</label>
+        <input type="text" name="name" id="name" >
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="guitar">Guitar</label>
+        <select name="guitar" id="guitar">
+            <option value="">choose the guitar</option>
+            <option value="adirondack-red">Adirondack Red</option>
+            <option value="adirondack-brown">Adirondack Brown</option>
+            <option value="adirondack-black">Adirondack Black</option>
+            <option value="adirondack-yellow">Adirondack Yellow</option>
+        </select>
+        <input type="checkbox" name="email-updates" id="email-updates">
+        <label for="email-updates">Sign up for email updates</label>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" name="submit" id="submit" value="Send now">
+        
+    </div>
+</body>
+</html>

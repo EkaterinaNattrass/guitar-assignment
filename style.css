@@ -1,0 +1,95 @@
+a {
+    text-decoration: none;
+    font-size: 25x;
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+ul li {
+    display: inline;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    font-family: "berkshire swash", cursive;
+    padding-left: 50px;
+}
+
+.current {
+    font-weight: bold;
+}
+
+.front {
+    background-image: url("Guitar-home-header.jpeg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+}
+
+h1 {
+    padding-top: 50px;
+    margin: 50px;
+    font-size: 30px;
+    font-family: "berkshire swash", cursive;
+}
+
+.cta {
+    font-size: 2em;
+    background-color: red;
+    border: solid black 2px;
+    margin-left: 50px;
+    padding: 10px 30px;
+}
+
+.cta:hover {
+    background-color: white;
+    border: solid black 2px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-family: "berkshire swash", cursive;
+    font-size: 25px;
+    padding-left: 200px ;
+}
+.advantages {
+    color: #F7934C;
+    font-size: 25px;
+    line-height: 2;
+    padding-left: 200px;
+}
+.reviews {
+    border-radius: 10%;
+}
+
+.review1,
+.review2 {
+    border-radius: 50%;
+}
+
+/* contact.html*/
+
+#submit {
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+#submit:hover {
+    background-color: #1B9449 ;
+}
